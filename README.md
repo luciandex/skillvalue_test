@@ -26,6 +26,7 @@ The maximum number of intersections at a time is 5 and this maximum is reached f
 Try the following arrays to test your code:
 
 (1)
+array('10:00 15:00 20:00','15:00 20:00 23:00');
 
 '10:00 15:00 20:00',
 
@@ -34,6 +35,7 @@ Try the following arrays to test your code:
 EXPECTED RESULT = 13
 
 (2)
+array('10:00 17:00 11:00 14:00 12:00 13:00 17:00 12:00 10:00','15:00 21:00 14:00 19:00 17:00 19:00 22:00 18:00 13:00');
 
 '10:00 17:00 11:00 14:00 12:00 13:00 17:00 12:00 10:00',
 
@@ -42,6 +44,7 @@ EXPECTED RESULT = 13
 EXPECTED RESULT = 4
 
 (3)
+array('10:00 14:00 10:00 15:00 10:00 13:00','17:00 22:00 14:00 21:00 17:00 22:00');
 
 '10:00 14:00 10:00 15:00 10:00 13:00',
 
@@ -50,6 +53,7 @@ EXPECTED RESULT = 4
 EXPECTED RESULT = 2
 
 (4)
+array('10:00 15:00 10:00','17:00 22:00 16:00');
 
 '10:00 15:00 10:00',
 
@@ -58,6 +62,7 @@ EXPECTED RESULT = 2
 EXPECTED RESULT = 1
 
 (5)
+array('10:00 18:00 11:00 14:00 10:00 14:00 16:00','15:00 22:00 16:00 19:00 14:00 19:00 22:00');
 
 '10:00 18:00 11:00 14:00 10:00 14:00 16:00',
 
