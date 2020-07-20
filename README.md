@@ -6,11 +6,17 @@ Two arrays was given:
 '17:00 22:00 14:00 21:00 17:00 22:00';
 
 Find the number of interval hours when the number of intersections is maximum.
+
 For example:
+
 The first interval start at 10:00 and end at 17:00 (the true interval is 10:00 - 16:00).
+
 The second interval start at 14:00 and end at 22:00 (the true interval is 14:00 - 21:00).
+
 …………
+
 …………
+
 The sixth interval start at 13:00 and end at 22:00 (the true interval is 13:00 - 21:00).
 
 The maximum number of intersections at a time is 5 and this maximum is reached for 2 hours => output: 2
@@ -19,21 +25,31 @@ The maximum number of intersections at a time is 5 and this maximum is reached f
 Try the following arrays to test your code:
 
 '10:00 15:00 20:00',
+
 '15:00 20:00 23:00'
+
 EXPECTED RESULT = 13
 
 '10:00 17:00 11:00 14:00 12:00 13:00 17:00 12:00 10:00',
+
 '15:00 21:00 14:00 19:00 17:00 19:00 22:00 18:00 13:00'
+
 EXPECTED RESULT = 4
 
 '10:00 14:00 10:00 15:00 10:00 13:00',
+
 '17:00 22:00 14:00 21:00 17:00 22:00'
+
 EXPECTED RESULT = 2
 
 '10:00 15:00 10:00',
+
 '17:00 22:00 16:00'
+
 EXPECTED RESULT = 1
 
 '10:00 18:00 11:00 14:00 10:00 14:00 16:00',
+
 '15:00 22:00 16:00 19:00 14:00 19:00 22:00'
+
 EXPECTED RESULT = 2
