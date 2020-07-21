@@ -24,7 +24,7 @@ The maximum number of intersections at a time is 5 and this maximum is reached f
 
  
 Try the following arrays to test your code:
-
+/
 (1)
 array('10:00 15:00 20:00','15:00 20:00 23:00');
 
